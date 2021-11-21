@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pares</title>
+    <link href="https://fonts.googleapis.com/css2?family=Amaranth&family
+	  =Bungee&family=Courgette&family=Lobster&family=Monoton&family=Pacifi
+	  co&family=Raleway&family=Saira+Condensed&family=Tangerine:wght@700&
+	  display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <div class="encabezado">
+      <div><span>Juego de Memoria</span></div>
+      <div>
+        <span>Tiempo restante: <span id="tiempo"></span></span>
+      </div>
+      <div>
+        <button id="iniciar" class="btn-juego">Iniciar</button>
+        <button id="detener" disabled class="btn-juego detener">Detener</button>
+        <button id="reiniciar" disabled class="btn-juego reiniciar">Reiniciar</button>
+      </div>
+    </div>
+    <div class="container" id="tablero"></div>
+    <div class="contenedores">
+    <div id="perdiste" class="perdiste"><span>GAME OVER ☠</span></div>
+  </div>
+    <div id="ganaste" class="ganaste"><span>Felicidades <br> GANASTE!!!</span></div>
+    <script src="/js/pares.js"></script>
+  </body>
+</html>
